@@ -1,0 +1,9 @@
+# vim: set ft=yaml ts=2 expandtab:
+---
+
+- name: reload webmin
+  service:
+    name: webmin
+    state: reloaded
+
+...
